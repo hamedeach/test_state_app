@@ -1,11 +1,15 @@
 import logo from './logo.svg';
 import './App.css';
+import ClockForSure from './clockComponent';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
+        <h3>
+          <ClockForSure/>
+        </h3>
         <p>
           Edit <code>src/App.js</code> and save to reload.
         </p>
