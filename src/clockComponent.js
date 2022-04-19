@@ -1,11 +1,25 @@
-import React,{Component}from "react";
+import React, { Component } from "react";
 
 
-class ClockForSure extends Component{
-    render(){
-        return 'test clock';
+class ClockForSure extends Component {
+    render() {
+        return (
+            <p>
+                {this.state.clockDateTime}
+            </p>
+        );
     }
 
+
+  
+
+
+
+
+
+
 }
+
+
 
 export default ClockForSure;
